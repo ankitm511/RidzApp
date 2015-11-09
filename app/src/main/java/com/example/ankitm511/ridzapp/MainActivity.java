@@ -10,15 +10,19 @@ import android.support.v4.view.GestureDetectorCompat;
 import android.content.Intent;
 import android.view.View;
 import android.util.Log;
+import android.content.Intent;
+//import android.widget.RelativeLayout;
+//import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
+    /*
     private static final int SWIPE_MIN_DISTANCE = 120;
     private static final int SWIPE_MAX_OFF_PATH = 250;
     private static final int SWIPE_THRESHOLD_VELOCITY = 200;
     private GestureDetector gestureDetector;
     View.OnTouchListener gestureListener;
-
+    */
 
 
     @Override
@@ -28,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
         /* ... */
 
-        // Gesture detection
+        /* Gesture detection
         gestureDetector = new GestureDetector(this, new MyGestureDetector());
         gestureListener = new View.OnTouchListener() {
             public boolean onTouch(View v, MotionEvent event) {
@@ -36,10 +40,16 @@ public class MainActivity extends AppCompatActivity {
             }
         };
 
-
+        */
     }
 
+    public void onClick(View view){
 
+        Intent i = new Intent(this,sara.class);
+        startActivity(i);
+    }
+
+ /*
     class MyGestureDetector extends GestureDetector.SimpleOnGestureListener {
         @Override
         public boolean onFling(MotionEvent e1, MotionEvent e2, float velocityX, float velocityY) {
@@ -66,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-
+*/
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
