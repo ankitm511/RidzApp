@@ -5,19 +5,18 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class michael extends AppCompatActivity {
+public class sara extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_michael);
+        setContentView(R.layout.activity_sara);
     }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_michael, menu);
+        getMenuInflater().inflate(R.menu.menu_sara, menu);
         return true;
     }
 
