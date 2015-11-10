@@ -24,4 +24,14 @@
         android:layout_centerHorizontal="true"
         tools:layout="@layout/sara_bottom_fragment"
         android:layout_marginTop="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEXT"
+        android:id="@+id/button_next_sara"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick = "onClick"/>
 </RelativeLayout>
