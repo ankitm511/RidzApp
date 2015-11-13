@@ -1,4 +1,4 @@
-package com.example.ankitm511.ridzapp;
+package com.myapp.ankitm511.ridzapp;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

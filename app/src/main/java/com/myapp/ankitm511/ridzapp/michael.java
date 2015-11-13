@@ -1,30 +1,22 @@
-package com.example.ankitm511.ridzapp;
+package com.myapp.ankitm511.ridzapp;
 
-import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 
-public class sara extends AppCompatActivity {
+public class michael extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sara);
-    }
-
-    public void onClick(View view){
-
-        Intent i = new Intent(this,michael.class);
-        startActivity(i);
+        setContentView(R.layout.activity_michael);
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_sara, menu);
+        getMenuInflater().inflate(R.menu.menu_michael, menu);
         return true;
     }
 

@@ -7,7 +7,7 @@
     <fragment
         android:layout_width="fill_parent"
         android:layout_height="300dp"
-        android:name="com.example.ankitm511.ridzapp.MichaelTopFragment"
+        android:name="com.myapp.ankitm511.ridzapp.MichaelTopFragment"
         android:id="@+id/fragment"
         android:layout_gravity="center_horizontal"
         tools:layout="@layout/michael_top_fragment" />
@@ -15,9 +15,9 @@
     <fragment
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:name="com.example.ankitm511.ridzapp.MichaelBottomFragment"
+        android:name="com.myapp.ankitm511.ridzapp.MichaelBottomFragment"
         android:id="@+id/fragment2"
         android:layout_gravity="center_horizontal"
         tools:layout="@layout/michael_bottom_fragment"
-        android:layout_marginTop="10dp" />
+        android:layout_marginTop="0dp" />
 </LinearLayout>

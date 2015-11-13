@@ -30,5 +30,7 @@ Michael was a gifted student, and finished his secondary education at Morton Eas
     <string name="button1">New Button</string>
     <string name="title_activity_maps">Map</string>
     <string name="button_next_sara">New Button</string>
+    <string name="sara_button">NEXT</string>
+    <string name="maps_button">New Button</string>
 
 </resources>

@@ -1,16 +1,11 @@
-package com.example.ankitm511.ridzapp;
+package com.myapp.ankitm511.ridzapp;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.MotionEvent;
-import android.view.GestureDetector;
-import android.support.v4.view.GestureDetectorCompat;
 import android.content.Intent;
 import android.view.View;
-import android.util.Log;
-import android.content.Intent;
 //import android.widget.RelativeLayout;
 //import android.widget.Button;
 
@@ -47,6 +42,12 @@ public class MainActivity extends AppCompatActivity {
 
         Intent i = new Intent(this,sara.class);
         startActivity(i);
+    }
+
+    public void goToMaps(View view){
+
+        Intent j = new Intent(this,MapsActivity.class);
+        startActivity(j);
     }
 
  /*

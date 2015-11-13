@@ -5,7 +5,7 @@ android {
     buildToolsVersion "23.0.1"
 
     defaultConfig {
-        applicationId "com.example.ankitm511.ridzapp"
+        applicationId "com.myapp.ankitm511.ridzapp"
         minSdkVersion 9
         targetSdkVersion 23
         versionCode 1
